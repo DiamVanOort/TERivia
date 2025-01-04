@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dheiig8rydy68"
+path="res://.godot/imported/cobweb_3.obj-44d2886bbdf0bd7d857f9ec2613f99e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cobweb_3.obj-44d2886bbdf0bd7d857f9ec2613f99e6.mesh"]
+
+source_file="res://Models/cobweb_3.obj"
+dest_files=["res://.godot/imported/cobweb_3.obj-44d2886bbdf0bd7d857f9ec2613f99e6.mesh", "res://.godot/imported/cobweb_3.obj-44d2886bbdf0bd7d857f9ec2613f99e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

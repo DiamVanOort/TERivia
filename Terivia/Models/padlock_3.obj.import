@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjet2psywb8fh"
+path="res://.godot/imported/padlock_3.obj-720e286c117e487f2a8a2e5d08af9e3b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/padlock_3.obj-720e286c117e487f2a8a2e5d08af9e3b.mesh"]
+
+source_file="res://Models/padlock_3.obj"
+dest_files=["res://.godot/imported/padlock_3.obj-720e286c117e487f2a8a2e5d08af9e3b.mesh", "res://.godot/imported/padlock_3.obj-720e286c117e487f2a8a2e5d08af9e3b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

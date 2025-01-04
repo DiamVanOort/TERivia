@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brse1cb82hhx8"
+path="res://.godot/imported/bars_metal_1.obj-486a7be568fa521680dee2b68f4c39fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bars_metal_1.obj-486a7be568fa521680dee2b68f4c39fb.mesh"]
+
+source_file="res://Models/bars_metal_1.obj"
+dest_files=["res://.godot/imported/bars_metal_1.obj-486a7be568fa521680dee2b68f4c39fb.mesh", "res://.godot/imported/bars_metal_1.obj-486a7be568fa521680dee2b68f4c39fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

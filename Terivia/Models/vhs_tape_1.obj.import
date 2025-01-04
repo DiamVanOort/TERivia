@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cu34x0wbpbrgj"
+path="res://.godot/imported/vhs_tape_1.obj-33b9495df2631f72c5a96a05402c0eca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/vhs_tape_1.obj-33b9495df2631f72c5a96a05402c0eca.mesh"]
+
+source_file="res://Models/vhs_tape_1.obj"
+dest_files=["res://.godot/imported/vhs_tape_1.obj-33b9495df2631f72c5a96a05402c0eca.mesh", "res://.godot/imported/vhs_tape_1.obj-33b9495df2631f72c5a96a05402c0eca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

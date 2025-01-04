@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7agciyr33p6m"
+path="res://.godot/imported/vent_3.obj-d318b464c3d6bb8e1cf0a6083a8230ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/vent_3.obj-d318b464c3d6bb8e1cf0a6083a8230ed.mesh"]
+
+source_file="res://Models/vent_3.obj"
+dest_files=["res://.godot/imported/vent_3.obj-d318b464c3d6bb8e1cf0a6083a8230ed.mesh", "res://.godot/imported/vent_3.obj-d318b464c3d6bb8e1cf0a6083a8230ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

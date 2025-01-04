@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://crq5dqnnadvkd"
+path="res://.godot/imported/wooden_crate_6.obj-b4bf3727dfbfaee4d58652ac8acea3fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wooden_crate_6.obj-b4bf3727dfbfaee4d58652ac8acea3fc.mesh"]
+
+source_file="res://Models/wooden_crate_6.obj"
+dest_files=["res://.godot/imported/wooden_crate_6.obj-b4bf3727dfbfaee4d58652ac8acea3fc.mesh", "res://.godot/imported/wooden_crate_6.obj-b4bf3727dfbfaee4d58652ac8acea3fc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

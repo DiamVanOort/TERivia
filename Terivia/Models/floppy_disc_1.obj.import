@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvf0skcvpvvsu"
+path="res://.godot/imported/floppy_disc_1.obj-a011c263ced27bc9b6b7d4e1ee5f9dff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floppy_disc_1.obj-a011c263ced27bc9b6b7d4e1ee5f9dff.mesh"]
+
+source_file="res://Models/floppy_disc_1.obj"
+dest_files=["res://.godot/imported/floppy_disc_1.obj-a011c263ced27bc9b6b7d4e1ee5f9dff.mesh", "res://.godot/imported/floppy_disc_1.obj-a011c263ced27bc9b6b7d4e1ee5f9dff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

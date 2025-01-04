@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dts3yx5ashw8b"
+path="res://.godot/imported/keyboard_1.obj-13dfdbe8068c60bd32960480832f345e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/keyboard_1.obj-13dfdbe8068c60bd32960480832f345e.mesh"]
+
+source_file="res://Models/keyboard_1.obj"
+dest_files=["res://.godot/imported/keyboard_1.obj-13dfdbe8068c60bd32960480832f345e.mesh", "res://.godot/imported/keyboard_1.obj-13dfdbe8068c60bd32960480832f345e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

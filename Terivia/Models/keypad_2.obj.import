@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://delj12t4rp2b3"
+path="res://.godot/imported/keypad_2.obj-e479bf466419b263e5b20d1f332cad0b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/keypad_2.obj-e479bf466419b263e5b20d1f332cad0b.mesh"]
+
+source_file="res://Models/keypad_2.obj"
+dest_files=["res://.godot/imported/keypad_2.obj-e479bf466419b263e5b20d1f332cad0b.mesh", "res://.godot/imported/keypad_2.obj-e479bf466419b263e5b20d1f332cad0b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

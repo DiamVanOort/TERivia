@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt2x75vlpi14i"
+path="res://.godot/imported/beam_2.obj-484779a7a6d66583452e12c6b0ab761f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/beam_2.obj-484779a7a6d66583452e12c6b0ab761f.mesh"]
+
+source_file="res://Models/beam_2.obj"
+dest_files=["res://.godot/imported/beam_2.obj-484779a7a6d66583452e12c6b0ab761f.mesh", "res://.godot/imported/beam_2.obj-484779a7a6d66583452e12c6b0ab761f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

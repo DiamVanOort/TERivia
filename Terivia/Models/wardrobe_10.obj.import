@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6cff7w7a6wfk"
+path="res://.godot/imported/wardrobe_10.obj-81b8dff42fbee69ca8926cb5a158547f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wardrobe_10.obj-81b8dff42fbee69ca8926cb5a158547f.mesh"]
+
+source_file="res://Models/wardrobe_10.obj"
+dest_files=["res://.godot/imported/wardrobe_10.obj-81b8dff42fbee69ca8926cb5a158547f.mesh", "res://.godot/imported/wardrobe_10.obj-81b8dff42fbee69ca8926cb5a158547f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

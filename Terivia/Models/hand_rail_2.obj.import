@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvyjeg0eagrii"
+path="res://.godot/imported/hand_rail_2.obj-6ccd49e6f1c3c6cab973e006b90f62a7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hand_rail_2.obj-6ccd49e6f1c3c6cab973e006b90f62a7.mesh"]
+
+source_file="res://Models/hand_rail_2.obj"
+dest_files=["res://.godot/imported/hand_rail_2.obj-6ccd49e6f1c3c6cab973e006b90f62a7.mesh", "res://.godot/imported/hand_rail_2.obj-6ccd49e6f1c3c6cab973e006b90f62a7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

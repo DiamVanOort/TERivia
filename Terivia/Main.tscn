@@ -1,0 +1,1050 @@
+[gd_scene load_steps=175 format=3 uid="uid://bl11yo7kvrhkf"]
+
+[ext_resource type="ArrayMesh" uid="uid://b1k3uliycwivi" path="res://Models/floor_2.obj" id="2_xkkug"]
+[ext_resource type="ArrayMesh" uid="uid://c2lenqcpak35n" path="res://Models/wall_1.obj" id="4_fgg3n"]
+[ext_resource type="Texture2D" uid="uid://4pfjd3646efq" path="res://Models/wall_1.png" id="4_mxnt3"]
+[ext_resource type="ArrayMesh" uid="uid://chkf82n1q63w6" path="res://Models/floor_1.obj" id="5_8j32t"]
+[ext_resource type="Texture2D" uid="uid://biopobdusvh7b" path="res://Models/wood_2.png" id="5_y605i"]
+[ext_resource type="Texture2D" uid="uid://br2dh6bjdu3lb" path="res://Models/floor_2_tiles.jpg" id="6_4ewyd"]
+[ext_resource type="Texture2D" uid="uid://g7fdvwgcrocq" path="res://Models/window_2.png" id="7_36b0y"]
+[ext_resource type="ArrayMesh" uid="uid://cc5fk4s8t3nv3" path="res://Models/elevator_doorway_1.obj" id="8_0cvka"]
+[ext_resource type="ArrayMesh" uid="uid://bhyerd5vc1sq" path="res://Models/doorway_1.obj" id="8_q2yct"]
+[ext_resource type="ArrayMesh" uid="uid://cuvvnscrsvq1v" path="res://Models/pillar_1.obj" id="9_3e4gf"]
+[ext_resource type="Texture2D" uid="uid://dom0gf073j3lw" path="res://Models/elevator_door_1.png" id="9_a5sfc"]
+[ext_resource type="Texture2D" uid="uid://bllaoko70f7ci" path="res://Models/door_4.png" id="9_j7y8j"]
+[ext_resource type="ArrayMesh" uid="uid://d4dsi848eodo0" path="res://Models/door_4.obj" id="10_n5ose"]
+[ext_resource type="Texture2D" uid="uid://bs0oxcywwh4lc" path="res://Models/elevator_call_button_1.png" id="10_rom24"]
+[ext_resource type="Texture2D" uid="uid://f821gmveowxs" path="res://Models/ceiling_1.jpg" id="10_wlfeb"]
+[ext_resource type="ArrayMesh" uid="uid://cqc0b0rclnnqv" path="res://Models/ceiling_lamp_1.obj" id="11_0m32p"]
+[ext_resource type="Texture2D" uid="uid://52v27ekclyue" path="res://Models/elevator_sign_1.png" id="11_b4blj"]
+[ext_resource type="ArrayMesh" uid="uid://ccrsemtkcb5b8" path="res://Models/window_2_single.obj" id="12_2uhkk"]
+[ext_resource type="ArrayMesh" uid="uid://baksuiy73f5oa" path="res://Models/elevator_sign_1.obj" id="12_kfqbm"]
+[ext_resource type="PackedScene" uid="uid://cm6hkreiydidl" path="res://Elevator.tscn" id="13_a5q3t"]
+[ext_resource type="Texture2D" uid="uid://dh0xhypibdgwi" path="res://Models/wood_3.png" id="19_3eg1l"]
+[ext_resource type="ArrayMesh" uid="uid://bcp6h6vff4xoo" path="res://Models/table_large_1.obj" id="20_y8fkx"]
+[ext_resource type="ArrayMesh" uid="uid://dxpbao4tfj3pl" path="res://Models/chair_1.obj" id="21_u1515"]
+[ext_resource type="Texture2D" uid="uid://o8qvfwrlcdg" path="res://Models/metal_3.png" id="22_prty4"]
+[ext_resource type="Texture2D" uid="uid://trk2eyow7272" path="res://Models/plastic_1.png" id="23_67crw"]
+[ext_resource type="Texture2D" uid="uid://bialbkxdfbc3x" path="res://Models/metal_1.png" id="24_a435c"]
+[ext_resource type="ArrayMesh" uid="uid://cihu6s4i4omy2" path="res://Models/screen_1.obj" id="25_5dssu"]
+[ext_resource type="Texture2D" uid="uid://dajcs0j1fp63b" path="res://Models/screen_1.png" id="26_61t6y"]
+[ext_resource type="Texture2D" uid="uid://o356cuholu8m" path="res://Models/screen_1_emission_a.png" id="27_h0ndw"]
+[ext_resource type="Texture2D" uid="uid://c6c1ivld5ggo6" path="res://Models/shotgun_1.png" id="28_lwhfp"]
+[ext_resource type="ArrayMesh" uid="uid://biy4psm24l4qm" path="res://Models/shotgun_1.obj" id="29_6shop"]
+[ext_resource type="Texture2D" uid="uid://cymcqb4kjo6cq" path="res://Models/pipe_1.jpg" id="30_vtaw5"]
+[ext_resource type="ArrayMesh" uid="uid://dvhwb7r25vdmm" path="res://Models/pipes_holder_1.obj" id="31_2cnys"]
+[ext_resource type="ArrayMesh" uid="uid://ng7p643jgx6c" path="res://Models/pipe_1.obj" id="32_q6nxx"]
+[ext_resource type="Texture2D" uid="uid://bywa6k1j2qy2q" path="res://Models/shotgun_ammo_2.png" id="33_dp240"]
+[ext_resource type="ArrayMesh" uid="uid://5flhhlrclemh" path="res://Models/shotgun_ammo_1.obj" id="34_gejtr"]
+[ext_resource type="ArrayMesh" uid="uid://b2pd2hxvmk8lc" path="res://Models/shotgun_ammo_2.obj" id="35_pgjgg"]
+[ext_resource type="Texture2D" uid="uid://cwyra3j3v0k2r" path="res://Models/wooden_crate_2.png" id="36_o2uip"]
+[ext_resource type="ArrayMesh" uid="uid://cnb662ks7qnnh" path="res://Models/wooden_crate_2.obj" id="37_pr3j4"]
+[ext_resource type="Texture2D" uid="uid://ikd0y8t8mt56" path="res://Models/wooden_crate_4.png" id="38_grqm8"]
+[ext_resource type="ArrayMesh" uid="uid://d10gvfp2naarc" path="res://Models/wooden_crate_3.obj" id="39_76xw5"]
+[ext_resource type="Texture2D" uid="uid://c0k546msvblan" path="res://Models/wooden_crate_1.png" id="40_ex80w"]
+[ext_resource type="ArrayMesh" uid="uid://bakc3lxcvsx3r" path="res://Models/wooden_crate_1.obj" id="41_gcgwo"]
+[ext_resource type="Texture2D" uid="uid://0xg2w76vn7g7" path="res://Models/vent_1.png" id="42_nre6c"]
+[ext_resource type="ArrayMesh" uid="uid://d1lea6cq4qy2g" path="res://Models/vent_1.obj" id="43_d7w7m"]
+[ext_resource type="Texture2D" uid="uid://cn70c5x026upv" path="res://Models/vent_3.png" id="44_jcwgt"]
+[ext_resource type="ArrayMesh" uid="uid://7agciyr33p6m" path="res://Models/vent_3.obj" id="45_183tp"]
+[ext_resource type="Texture2D" uid="uid://cwbq6pep7ucy3" path="res://Models/vending_machine_1.png" id="46_u1xd6"]
+[ext_resource type="ArrayMesh" uid="uid://dpcpa0xhl4i5y" path="res://Models/vending_machine_1.obj" id="47_jhqj6"]
+[ext_resource type="Texture2D" uid="uid://bfxoo4odyru38" path="res://Models/clock_2.png" id="48_h8bn6"]
+[ext_resource type="ArrayMesh" uid="uid://dyvgjwxl7gfbm" path="res://Models/clock_2.obj" id="49_6jnkf"]
+[ext_resource type="ArrayMesh" uid="uid://bcijsma8imsfw" path="res://Models/pipe_2.obj" id="51_q6wfo"]
+[ext_resource type="ArrayMesh" uid="uid://3ga17mjcrgrv" path="res://Models/lamp_2.obj" id="52_iteql"]
+[ext_resource type="Texture2D" uid="uid://f8cinctgjlac" path="res://Models/ceiling_lamp_1_on.png" id="53_rt4cq"]
+[ext_resource type="Texture2D" uid="uid://d10hnc05nhq84" path="res://Models/metal_4.png" id="54_by6hy"]
+[ext_resource type="Texture2D" uid="uid://ce51klt8r4rp0" path="res://Models/ceiling_lamp_1_off.png" id="56_yrg7n"]
+[ext_resource type="Texture2D" uid="uid://vrgbyymup0pd" path="res://Models/mask_2.png" id="57_kntjx"]
+[ext_resource type="ArrayMesh" uid="uid://dcu4aqjejd4py" path="res://Models/mask_2.obj" id="58_odurn"]
+[ext_resource type="Texture2D" uid="uid://gldjkfymrght" path="res://Models/cigs_packet_1.png" id="59_ud2y6"]
+[ext_resource type="ArrayMesh" uid="uid://crwt7ivjgnlb7" path="res://Models/cigs_packet_1.obj" id="60_uap5o"]
+[ext_resource type="ArrayMesh" uid="uid://x8uihtiv46oe" path="res://Models/cig_1.obj" id="61_aabin"]
+[ext_resource type="Texture2D" uid="uid://cufdfdojl60gf" path="res://Models/cell_phone_2.png" id="62_70o6a"]
+[ext_resource type="ArrayMesh" uid="uid://dohyau3brer0d" path="res://Models/cell_phone_2.obj" id="63_xu301"]
+[ext_resource type="Texture2D" uid="uid://b3n7s4rxy6rvr" path="res://Models/ash_1.png" id="64_3d4gv"]
+[ext_resource type="ArrayMesh" uid="uid://d1nu57r3bqbsq" path="res://Models/ashtray_1.obj" id="65_pwchn"]
+[ext_resource type="ArrayMesh" uid="uid://bmkgpdekndbnn" path="res://Models/bed_1.obj" id="66_i0lh2"]
+[ext_resource type="Texture2D" uid="uid://2ew5uvbf1fdh" path="res://Models/plastic_3.png" id="67_tgsyx"]
+[ext_resource type="ArrayMesh" uid="uid://bmhqx68gi4da0" path="res://Models/projector_1.obj" id="68_4c5x4"]
+[ext_resource type="Texture2D" uid="uid://bue33bgubrtw5" path="res://Models/dosimeter_1.png" id="69_cfb6f"]
+[ext_resource type="Texture2D" uid="uid://cvovxykt1hv1" path="res://Models/vhs_tape_1.png" id="69_y8i65"]
+[ext_resource type="ArrayMesh" uid="uid://b1g1j85f7khw7" path="res://Models/dosimeter_1.obj" id="70_8ydmo"]
+[ext_resource type="ArrayMesh" uid="uid://cu34x0wbpbrgj" path="res://Models/vhs_tape_1.obj" id="70_234tm"]
+[ext_resource type="Texture2D" uid="uid://cr2q543afqks8" path="res://Models/walkie_talkie_1.png" id="71_trsrl"]
+[ext_resource type="ArrayMesh" uid="uid://cogb156xgrqic" path="res://Models/walkie_talkie_1.obj" id="72_hqtmd"]
+[ext_resource type="Texture2D" uid="uid://derdaaing02ui" path="res://Models/cross_1.png" id="73_yl6gb"]
+[ext_resource type="ArrayMesh" uid="uid://yq6y01d3pppf" path="res://Models/cross_1.obj" id="74_ikvbc"]
+[ext_resource type="Texture2D" uid="uid://ck0q55m5m4fbw" path="res://Models/wooden_crate_3.png" id="77_o32vq"]
+[ext_resource type="ArrayMesh" uid="uid://ncma58vaopai" path="res://Models/wooden_crate_4.obj" id="78_0uhvw"]
+[ext_resource type="ArrayMesh" uid="uid://bhk6wpskwn30t" path="res://Models/table_small_2.obj" id="79_5unkr"]
+[ext_resource type="Texture2D" uid="uid://dybufskc5vqi1" path="res://Models/painting_1.png" id="80_regan"]
+[ext_resource type="ArrayMesh" uid="uid://bvkdy2k42hagc" path="res://Models/painting_1.obj" id="81_j7l5n"]
+[ext_resource type="Texture2D" uid="uid://s3yifuvvv1ab" path="res://Models/glass_bottle_1.png" id="82_ych5n"]
+[ext_resource type="ArrayMesh" uid="uid://cifyyjbv1l51i" path="res://Models/glass_bottle_1.obj" id="83_w3a3r"]
+[ext_resource type="Texture2D" uid="uid://bibujbf2lyquv" path="res://Models/pills_bottle_1.png" id="84_0ls1x"]
+[ext_resource type="ArrayMesh" uid="uid://bpdrc3dk11hxy" path="res://Models/pills_bottle_1.obj" id="85_vpv73"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7g05u"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_dfnaq"]
+sky_material = SubResource("ProceduralSkyMaterial_7g05u")
+
+[sub_resource type="Environment" id="Environment_g0inh"]
+background_mode = 2
+sky = SubResource("Sky_dfnaq")
+tonemap_mode = 3
+tonemap_exposure = 1.5
+ssao_enabled = true
+ssao_radius = 1.5
+ssao_intensity = 4.0
+glow_enabled = true
+glow_intensity = 0.2
+glow_bloom = 0.1
+glow_blend_mode = 0
+fog_light_color = Color(0.72031, 0.502501, 0.115138, 1)
+fog_light_energy = 0.2
+fog_density = 0.02
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.1
+adjustment_enabled = true
+adjustment_brightness = 0.8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bksu6"]
+albedo_texture = ExtResource("6_4ewyd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6p2ms"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u5qp6"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_22yai"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jcq0w"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kiu0d"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jgao6"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u86oc"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ep6xt"]
+albedo_texture = ExtResource("7_36b0y")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r36po"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bf7al"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g5w8k"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8754i"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_78sac"]
+albedo_texture = ExtResource("9_j7y8j")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b5jle"]
+albedo_texture = ExtResource("10_wlfeb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_udb7c"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2o70x"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dca74"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c4ke6"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fiiin"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_12t28"]
+albedo_texture = ExtResource("9_a5sfc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_us8nc"]
+albedo_texture = ExtResource("9_a5sfc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7u2o3"]
+albedo_texture = ExtResource("10_rom24")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1ou2l"]
+albedo_texture = ExtResource("11_b4blj")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ud3m7"]
+albedo_texture = ExtResource("19_3eg1l")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fvo3i"]
+albedo_texture = ExtResource("19_3eg1l")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vpxao"]
+albedo_texture = ExtResource("19_3eg1l")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s082p"]
+albedo_texture = ExtResource("22_prty4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_npiae"]
+albedo_texture = ExtResource("23_67crw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n052k"]
+albedo_texture = ExtResource("24_a435c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xli3s"]
+albedo_texture = ExtResource("26_61t6y")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2kgfg"]
+albedo_texture = ExtResource("27_h0ndw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6qi3v"]
+albedo_texture = ExtResource("28_lwhfp")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n6j6o"]
+albedo_texture = ExtResource("30_vtaw5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s5cr7"]
+albedo_texture = ExtResource("30_vtaw5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mutfd"]
+albedo_texture = ExtResource("33_dp240")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j3yuq"]
+albedo_texture = ExtResource("33_dp240")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pcky8"]
+albedo_texture = ExtResource("36_o2uip")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hriky"]
+albedo_texture = ExtResource("38_grqm8")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s024r"]
+albedo_texture = ExtResource("40_ex80w")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_edmsv"]
+albedo_texture = ExtResource("42_nre6c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2noi7"]
+albedo_texture = ExtResource("44_jcwgt")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6nbk2"]
+albedo_texture = ExtResource("46_u1xd6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3m81l"]
+albedo_texture = ExtResource("46_u1xd6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_djvcn"]
+albedo_texture = ExtResource("48_h8bn6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q6amd"]
+albedo_texture = ExtResource("57_kntjx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dovph"]
+albedo_texture = ExtResource("59_ud2y6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yc8nl"]
+albedo_texture = ExtResource("59_ud2y6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xiwj1"]
+albedo_texture = ExtResource("62_70o6a")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_crs46"]
+albedo_texture = ExtResource("64_3d4gv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_imc64"]
+albedo_texture = ExtResource("67_tgsyx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5j28r"]
+albedo_texture = ExtResource("24_a435c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e82yu"]
+albedo_texture = ExtResource("67_tgsyx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jwx81"]
+albedo_texture = ExtResource("54_by6hy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ik2xt"]
+albedo_texture = ExtResource("54_by6hy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wnvvr"]
+albedo_texture = ExtResource("54_by6hy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6um4f"]
+albedo_texture = ExtResource("54_by6hy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n1smm"]
+albedo_texture = ExtResource("22_prty4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ug4qu"]
+albedo_texture = ExtResource("24_a435c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xbvi0"]
+albedo_texture = ExtResource("67_tgsyx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2min"]
+albedo_texture = ExtResource("24_a435c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bbelp"]
+albedo_texture = ExtResource("67_tgsyx")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ergr3"]
+albedo_texture = ExtResource("69_y8i65")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v6n8i"]
+albedo_texture = ExtResource("71_trsrl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_00riw"]
+albedo_texture = ExtResource("73_yl6gb")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bs4sk"]
+albedo_texture = ExtResource("69_cfb6f")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpxl3"]
+albedo_texture = ExtResource("36_o2uip")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r522g"]
+albedo_texture = ExtResource("77_o32vq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b5im0"]
+albedo_texture = ExtResource("38_grqm8")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hnpu6"]
+albedo_texture = ExtResource("19_3eg1l")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_80n1l"]
+albedo_texture = ExtResource("80_regan")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yhc55"]
+albedo_texture = ExtResource("82_ych5n")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bbmlo"]
+albedo_texture = ExtResource("84_0ls1x")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqdug"]
+albedo_texture = ExtResource("4_mxnt3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5y6ci"]
+albedo_texture = ExtResource("5_y605i")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6hecq"]
+albedo_texture = ExtResource("30_vtaw5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bf6fr"]
+albedo_texture = ExtResource("30_vtaw5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hf8qh"]
+albedo_texture = ExtResource("30_vtaw5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a811g"]
+albedo_texture = ExtResource("22_prty4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_njrcf"]
+albedo_texture = ExtResource("53_rt4cq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jjpap"]
+albedo_texture = ExtResource("22_prty4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ieam"]
+albedo_texture = ExtResource("54_by6hy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2psy1"]
+albedo_texture = ExtResource("53_rt4cq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b3v68"]
+albedo_texture = ExtResource("56_yrg7n")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_10h5c"]
+albedo_texture = ExtResource("56_yrg7n")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hy6jp"]
+albedo_texture = ExtResource("56_yrg7n")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_g0inh")
+
+[node name="Models" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.718333, 0.6957, 0, -0.6957, 0.718333, -3.10828, 8.81515, 12.1633)
+
+[node name="Floors1" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 5.09046, -4.8257, -7.66781)
+
+[node name="Floor1" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor2" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor3" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -6)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor4" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor5" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor6" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -14)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Floor8" type="MeshInstance3D" parent="Models/Floors1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -14)
+material_override = SubResource("StandardMaterial3D_bksu6")
+mesh = ExtResource("5_8j32t")
+skeleton = NodePath("../..")
+
+[node name="Walls1" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 7.10828, -3.43582, -9.12332)
+
+[node name="Wall1" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -2)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Window2Single" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+mesh = ExtResource("12_2uhkk")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_jcq0w")
+surface_material_override/1 = SubResource("StandardMaterial3D_kiu0d")
+surface_material_override/2 = SubResource("StandardMaterial3D_jgao6")
+surface_material_override/3 = SubResource("StandardMaterial3D_u86oc")
+surface_material_override/4 = SubResource("StandardMaterial3D_ep6xt")
+
+[node name="Wall2" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -14)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Window2Single2" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -14)
+mesh = ExtResource("12_2uhkk")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_jcq0w")
+surface_material_override/1 = SubResource("StandardMaterial3D_kiu0d")
+surface_material_override/2 = SubResource("StandardMaterial3D_jgao6")
+surface_material_override/3 = SubResource("StandardMaterial3D_u86oc")
+surface_material_override/4 = SubResource("StandardMaterial3D_ep6xt")
+
+[node name="Wall3" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, -12)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Wall4" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, -8)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Wall5" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, -4)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Wall7" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, -8)
+mesh = ExtResource("4_fgg3n")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_6p2ms")
+surface_material_override/1 = SubResource("StandardMaterial3D_u5qp6")
+surface_material_override/2 = SubResource("StandardMaterial3D_22yai")
+surface_material_override/3 = SubResource("StandardMaterial3D_22yai")
+
+[node name="Doorway1" type="MeshInstance3D" parent="Models/Walls1"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, -12)
+mesh = ExtResource("8_q2yct")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_r36po")
+surface_material_override/1 = SubResource("StandardMaterial3D_bf7al")
+surface_material_override/2 = SubResource("StandardMaterial3D_g5w8k")
+surface_material_override/3 = SubResource("StandardMaterial3D_8754i")
+
+[node name="Door4" type="MeshInstance3D" parent="Models/Walls1/Doorway1"]
+transform = Transform3D(1, 0, 4.37114e-08, 0, 1, 0, -4.37114e-08, 0, 1, 0.509634, 0.0224199, 0.00199127)
+material_override = SubResource("StandardMaterial3D_78sac")
+mesh = ExtResource("10_n5ose")
+skeleton = NodePath("../../../..")
+
+[node name="Walls2" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 7.10828, -1.28082, -7.03622)
+
+[node name="Floors2" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -4.89172, 2.17505, -12.0419)
+
+[node name="Rails" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 1.10828, 0.783648, -10.6053)
+
+[node name="Pillars" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.483929, -0.6957, 0, 0.468681, 0.718333, 0.898891, -0.506935, -12.1475)
+
+[node name="Roof" type="Node3D" parent="Models"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 3.10828, 2.12978, -14.87)
+
+[node name="Ceiling" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 4)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling2" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3, 4)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling3" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 0)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling4" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3, 0)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling5" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3, -4)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling6" type="MeshInstance3D" parent="Models/Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, -4)
+material_override = SubResource("StandardMaterial3D_b5jle")
+mesh = ExtResource("2_xkkug")
+skeleton = NodePath("../../..")
+
+[node name="Ceiling Lamps" type="Node3D" parent="Models"]
+transform = Transform3D(0.999999, 0.00162629, 0.000275424, -0.00162555, 0.999995, -0.00265348, -0.000279744, 0.00265297, 0.999996, 0, 0, 0)
+
+[node name="Elevator1" type="Node3D" parent="Models"]
+
+[node name="ElevatorDoorway1" type="MeshInstance3D" parent="Models/Elevator1"]
+transform = Transform3D(1.31134e-07, 0, 1, 0.6957, 0.718333, -9.123e-08, -0.718333, 0.6957, 9.4198e-08, -0.89172, -0.653018, -11.9967)
+mesh = ExtResource("8_0cvka")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_udb7c")
+surface_material_override/1 = SubResource("StandardMaterial3D_2o70x")
+surface_material_override/2 = SubResource("StandardMaterial3D_dca74")
+surface_material_override/3 = SubResource("StandardMaterial3D_c4ke6")
+surface_material_override/4 = SubResource("StandardMaterial3D_fiiin")
+surface_material_override/5 = SubResource("StandardMaterial3D_12t28")
+surface_material_override/6 = SubResource("StandardMaterial3D_us8nc")
+surface_material_override/7 = SubResource("StandardMaterial3D_7u2o3")
+
+[node name="ElevatorSign1" type="MeshInstance3D" parent="Models/Elevator1"]
+transform = Transform3D(1.49012e-08, 0, 1, 0.6957, 0.718333, -6.28749e-08, -0.718333, 0.6957, 2.20825e-08, -0.83405, 1.17525, -10.226)
+material_override = SubResource("StandardMaterial3D_1ou2l")
+mesh = ExtResource("12_kfqbm")
+
+[node name="elevator_12" parent="Models/Elevator1" instance=ExtResource("13_a5q3t")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0.6957, 0.718333, 3.041e-08, -0.718333, 0.6957, -3.13993e-08, -2.07881, 0.0880036, -11.279)
+
+[node name="Smaller Objects" type="Node3D" parent="Models"]
+
+[node name="TableLarge1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-4.37114e-08, 0, -1, -0.6957, 0.718333, 3.041e-08, 0.718333, 0.6957, -3.13993e-08, 3.71747, 2.12978, -14.87)
+material_override = SubResource("StandardMaterial3D_ud3m7")
+mesh = ExtResource("20_y8fkx")
+skeleton = NodePath("../../..")
+
+[node name="TableLarge2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.5, 0, -0.866025, -0.602494, 0.718333, -0.34785, 0.622094, 0.6957, 0.359166, 4.17244, 0.88892, -13.5888)
+material_override = SubResource("StandardMaterial3D_fvo3i")
+mesh = ExtResource("20_y8fkx")
+skeleton = NodePath("../../..")
+
+[node name="TableLarge3" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.5, 0, -0.866025, -0.602494, 0.718333, 0.34785, 0.622094, 0.6957, -0.359166, 4.17244, 3.37572, -16.1565)
+material_override = SubResource("StandardMaterial3D_vpxao")
+mesh = ExtResource("20_y8fkx")
+skeleton = NodePath("../../..")
+
+[node name="Chair1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-4.37114e-08, 0, -1, -0.6957, 0.718333, 3.041e-08, 0.718333, 0.6957, -3.13993e-08, 5.2578, 2.12978, -14.87)
+mesh = ExtResource("21_u1515")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_s082p")
+surface_material_override/1 = SubResource("StandardMaterial3D_npiae")
+surface_material_override/2 = SubResource("StandardMaterial3D_n052k")
+
+[node name="Screen2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(8.74228e-08, 0, 1, 0.6957, 0.718333, -6.082e-08, -0.718333, 0.6957, 6.27986e-08, 3.37621, 2.48511, -13.8375)
+mesh = ExtResource("25_5dssu")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_xli3s")
+surface_material_override/1 = SubResource("StandardMaterial3D_2kgfg")
+
+[node name="Screen3" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(8.74228e-08, 0, 1, 0.6957, 0.718333, -6.082e-08, -0.718333, 0.6957, 6.27986e-08, 3.37621, 3.18081, -14.5558)
+mesh = ExtResource("25_5dssu")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_xli3s")
+surface_material_override/1 = SubResource("StandardMaterial3D_2kgfg")
+
+[node name="Screen4" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1.85366e-07, 0.319323, 0.947646, 1.55662, 0.680725, -0.22938, -1.60726, 0.659277, -0.222153, 3.37621, 3.36235, -13.6955)
+mesh = ExtResource("25_5dssu")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_xli3s")
+surface_material_override/1 = SubResource("StandardMaterial3D_2kgfg")
+
+[node name="Screen5" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(2.18557e-07, 0, 1, 0.6957, 0.718333, -1.5205e-07, -0.718333, 0.6957, 1.56997e-07, 3.67513, 2.47452, -15.175)
+mesh = ExtResource("25_5dssu")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_xli3s")
+surface_material_override/1 = SubResource("StandardMaterial3D_2kgfg")
+
+[node name="Screen6" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(2.18557e-07, 0, 1, 0.6957, 0.718333, -1.5205e-07, -0.718333, 0.6957, 1.56997e-07, 3.67513, 1.82544, -14.5048)
+mesh = ExtResource("25_5dssu")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_xli3s")
+surface_material_override/1 = SubResource("StandardMaterial3D_2kgfg")
+
+[node name="Shotgun1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.899764, -0.436378, 2.18557e-08, -0.303588, 0.625965, -0.718333, 0.313464, -0.64633, -0.6957, 4.13147, 1.57348, -12.4776)
+material_override = SubResource("StandardMaterial3D_6qi3v")
+mesh = ExtResource("29_6shop")
+skeleton = NodePath("../../..")
+
+[node name="PipesHolder1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.5, 0, -0.866025, -0.602494, 0.718333, -0.34785, 0.622094, 0.6957, 0.359166, 4.23564, 1.41925, -12.7147)
+material_override = SubResource("StandardMaterial3D_n6j6o")
+mesh = ExtResource("31_2cnys")
+skeleton = NodePath("../../..")
+
+[node name="Pipe1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.259808, -0.15, 0, 0.104355, 0.180748, 0.359166, -0.10775, -0.186628, 0.34785, 4.48239, 1.45642, -12.0925)
+material_override = SubResource("StandardMaterial3D_s5cr7")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="ShotgunAmmo1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 4.1026, 1.7898, -13.126)
+material_override = SubResource("StandardMaterial3D_mutfd")
+mesh = ExtResource("34_gejtr")
+skeleton = NodePath("../../..")
+
+[node name="ShotgunAmmo2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.5, 0, 0.866025, 0.602494, 0.718333, 0.34785, -0.622094, 0.6957, -0.359166, 3.9273, 1.83771, -13.1754)
+material_override = SubResource("StandardMaterial3D_j3yuq")
+mesh = ExtResource("35_pgjgg")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 0.348045, 5.85206, -18.7198)
+material_override = SubResource("StandardMaterial3D_pcky8")
+mesh = ExtResource("37_pr3j4")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate3" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 1.46438, 5.85206, -18.7198)
+material_override = SubResource("StandardMaterial3D_pcky8")
+mesh = ExtResource("37_pr3j4")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate4" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 0.849374, 6.63268, -17.9626)
+material_override = SubResource("StandardMaterial3D_pcky8")
+mesh = ExtResource("37_pr3j4")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate5" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.707107, 0, -0.707107, -0.491934, 0.718333, -0.491934, 0.507938, 0.6957, 0.507938, 6.26845, 5.69655, -18.5528)
+material_override = SubResource("StandardMaterial3D_hriky")
+mesh = ExtResource("39_76xw5")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 6.25984, 6.43275, -17.7686)
+material_override = SubResource("StandardMaterial3D_s024r")
+mesh = ExtResource("41_gcgwo")
+skeleton = NodePath("../../..")
+
+[node name="Vent1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 6.34242, 7.9905, -17.4576)
+material_override = SubResource("StandardMaterial3D_edmsv")
+mesh = ExtResource("43_d7w7m")
+skeleton = NodePath("../../..")
+
+[node name="Vent3" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.8, 0, 0, 0, 0.55656, 0.718333, 0, -0.574666, 0.6957, 4.93021, 2.19941, -14.7869)
+material_override = SubResource("StandardMaterial3D_2noi7")
+mesh = ExtResource("45_183tp")
+skeleton = NodePath("../../..")
+
+[node name="VendingMachine1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-1, 0, 8.74228e-08, 6.082e-08, 0.718333, 0.6957, -6.27986e-08, 0.6957, -0.718333, 6.4956, -1.8118, -10.8002)
+material_override = SubResource("StandardMaterial3D_6nbk2")
+mesh = ExtResource("47_jhqj6")
+skeleton = NodePath("../../..")
+surface_material_override/1 = SubResource("StandardMaterial3D_3m81l")
+
+[node name="Clock2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-2.25, 0, -8.74228e-08, -1.36845e-07, 1.70963, 0.6957, 1.41297e-07, 1.65577, -0.718333, 2.88645, -0.27965, -8.95458)
+material_override = SubResource("StandardMaterial3D_djvcn")
+mesh = ExtResource("49_6jnkf")
+skeleton = NodePath("../../..")
+
+[node name="Mask2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.689443, 0.708643, 0.14998, 0.503923, 0.617987, -0.603451, -0.520317, -0.340466, -0.783168, 3.88847, 4.09626, -13.93)
+material_override = SubResource("StandardMaterial3D_q6amd")
+mesh = ExtResource("58_odurn")
+skeleton = NodePath("../../..")
+
+[node name="CigsPacket1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.903679, 0, 0.42821, 0.297905, 0.718333, -0.628689, -0.307597, 0.6957, 0.649143, 3.8978, 2.60607, -13.9569)
+material_override = SubResource("StandardMaterial3D_dovph")
+mesh = ExtResource("60_uap5o")
+skeleton = NodePath("../../..")
+
+[node name="Cig1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.919657, 0.392722, 0, -0.282105, 0.66062, -0.6957, -0.273217, 0.639805, 0.718333, 3.96626, 2.56926, -13.8764)
+material_override = SubResource("StandardMaterial3D_yc8nl")
+mesh = ExtResource("61_aabin")
+skeleton = NodePath("../../..")
+
+[node name="CellPhone2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.866025, 0, 0.5, 0.34785, 0.718333, -0.602494, -0.359166, 0.6957, 0.622094, 4.03055, 3.27929, -14.6586)
+material_override = SubResource("StandardMaterial3D_xiwj1")
+mesh = ExtResource("63_xu301")
+skeleton = NodePath("../../..")
+
+[node name="Ashtray1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 4.02203, 2.32602, -13.6865)
+material_override = SubResource("StandardMaterial3D_crs46")
+mesh = ExtResource("65_pwchn")
+skeleton = NodePath("../../..")
+
+[node name="Bed1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 3.94857, 5.69498, -18.5512)
+mesh = ExtResource("66_i0lh2")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_imc64")
+surface_material_override/1 = SubResource("StandardMaterial3D_5j28r")
+surface_material_override/2 = SubResource("StandardMaterial3D_e82yu")
+
+[node name="Projector1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-4.37114e-08, 0, -1, -0.6957, 0.718333, 3.041e-08, 0.718333, 0.6957, -3.13993e-08, 2.72001, 1.21647, -13.927)
+mesh = ExtResource("68_4c5x4")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_jwx81")
+surface_material_override/1 = SubResource("StandardMaterial3D_ik2xt")
+surface_material_override/2 = SubResource("StandardMaterial3D_wnvvr")
+surface_material_override/3 = SubResource("StandardMaterial3D_6um4f")
+surface_material_override/4 = SubResource("StandardMaterial3D_n1smm")
+surface_material_override/5 = SubResource("StandardMaterial3D_ug4qu")
+surface_material_override/6 = SubResource("StandardMaterial3D_xbvi0")
+surface_material_override/7 = SubResource("StandardMaterial3D_j2min")
+surface_material_override/8 = SubResource("StandardMaterial3D_bbelp")
+
+[node name="VhsTape1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.866025, 0, -0.5, -0.34785, 0.718333, -0.602494, 0.359166, 0.6957, 0.622094, 3.93853, 3.65753, -15.0293)
+material_override = SubResource("StandardMaterial3D_ergr3")
+mesh = ExtResource("70_234tm")
+skeleton = NodePath("../../..")
+
+[node name="VhsTape2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.866025, 0, -0.5, -0.34785, 0.718333, -0.602494, 0.359166, 0.6957, 0.622094, 4.09744, 3.84901, -15.2271)
+material_override = SubResource("StandardMaterial3D_ergr3")
+mesh = ExtResource("70_234tm")
+skeleton = NodePath("../../..")
+
+[node name="VhsTape3" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.866025, 0, -0.5, -0.34785, 0.718333, -0.602494, 0.359166, 0.6957, 0.622094, 4.02065, 3.78972, -15.0993)
+material_override = SubResource("StandardMaterial3D_ergr3")
+mesh = ExtResource("70_234tm")
+skeleton = NodePath("../../..")
+
+[node name="WalkieTalkie1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.707107, 0.707107, 0, 0.491934, 0.491934, -0.718333, -0.507938, -0.507938, -0.6957, 4.0804, 2.00131, -13.9709)
+material_override = SubResource("StandardMaterial3D_v6n8i")
+mesh = ExtResource("72_hqtmd")
+skeleton = NodePath("../../..")
+
+[node name="Cross1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-4.37114e-08, 0.944227, -0.329295, 0.6957, -0.236543, -0.678269, -0.718333, -0.229091, -0.656898, 3.7903, 3.11564, -13.0239)
+material_override = SubResource("StandardMaterial3D_00riw")
+mesh = ExtResource("74_ikvbc")
+skeleton = NodePath("../../..")
+
+[node name="Dosimeter1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0.6957, 0.718333, 3.041e-08, -0.718333, 0.6957, -3.13993e-08, 3.97587, 2.79897, -14.2068)
+material_override = SubResource("StandardMaterial3D_bs4sk")
+mesh = ExtResource("70_8ydmo")
+skeleton = NodePath("../../..")
+
+[node name="Shotgun2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.999859, 0.0167892, -1.49012e-08, 0.0116803, -0.695602, -0.718333, -0.0120602, 0.718232, -0.6957, 3.24745, 3.04394, -13.9959)
+material_override = SubResource("StandardMaterial3D_6qi3v")
+mesh = ExtResource("29_6shop")
+skeleton = NodePath("../../..")
+
+[node name="PipesHolder2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1.04308e-07, 0, 1, 0.6957, 0.718333, -3.11002e-08, -0.718333, 0.6957, 3.2112e-08, 2.98047, 2.82045, -14.1615)
+material_override = SubResource("StandardMaterial3D_n6j6o")
+mesh = ExtResource("31_2cnys")
+skeleton = NodePath("../../..")
+
+[node name="Pipe2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(-0.3, -1.49012e-08, 0, 2.09021e-08, -0.20871, 0.359167, -1.08726e-08, 0.2155, 0.34785, 2.97732, 3.49011, -14.1923)
+material_override = SubResource("StandardMaterial3D_s5cr7")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate6" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.287101, 1.75127, -14.4792)
+material_override = SubResource("StandardMaterial3D_kpxl3")
+mesh = ExtResource("37_pr3j4")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate7" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.295508, 2.54299, -15.2966)
+material_override = SubResource("StandardMaterial3D_r522g")
+mesh = ExtResource("39_76xw5")
+skeleton = NodePath("../../..")
+
+[node name="WoodenCrate8" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.266993, 2.95437, -14.1466)
+material_override = SubResource("StandardMaterial3D_b5im0")
+mesh = ExtResource("78_0uhvw")
+skeleton = NodePath("../../..")
+
+[node name="TableSmall2" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 1.03502, -0.6957, 0, 1.00241, 0.718333, 2.79854, 2.10478, -14.8442)
+material_override = SubResource("StandardMaterial3D_hnpu6")
+mesh = ExtResource("79_5unkr")
+skeleton = NodePath("../../..")
+
+[node name="Painting1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718332, -0.6957, 0, 0.6957, 0.718332, 3.44218, 7.7198, -17.6999)
+material_override = SubResource("StandardMaterial3D_80n1l")
+mesh = ExtResource("81_j7l5n")
+skeleton = NodePath("../../..")
+
+[node name="GlassBottle1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(0.609786, 0, -0.792566, -0.551388, 0.718332, -0.424228, 0.569326, 0.6957, 0.438029, 4.5574, 4.25202, -15.6754)
+material_override = SubResource("StandardMaterial3D_yhc55")
+mesh = ExtResource("83_w3a3r")
+skeleton = NodePath("../../..")
+
+[node name="PillsBottle1" type="MeshInstance3D" parent="Models/Smaller Objects"]
+transform = Transform3D(1, 0, 0, 0, 0.718332, -0.6957, 0, 0.6957, 0.718332, 4.19651, 4.08186, -15.4944)
+material_override = SubResource("StandardMaterial3D_bbmlo")
+mesh = ExtResource("85_vpv73")
+skeleton = NodePath("../../..")
+
+[node name="Wall 3D decore" type="Node3D" parent="Models"]
+
+[node name="Pillar1" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 0.973388, -1.97293, -10.6338)
+mesh = ExtResource("9_3e4gf")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_wqdug")
+surface_material_override/1 = SubResource("StandardMaterial3D_5y6ci")
+
+[node name="Pillar2" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.847735, 0.294977, -12.9755)
+mesh = ExtResource("9_3e4gf")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_wqdug")
+surface_material_override/1 = SubResource("StandardMaterial3D_5y6ci")
+
+[node name="Pipe1" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.767913, 0.537709, -13.2261)
+material_override = SubResource("StandardMaterial3D_6hecq")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe2" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.767913, 0.731025, -13.4257)
+material_override = SubResource("StandardMaterial3D_6hecq")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe3" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.767913, 0.013114, -12.6845)
+material_override = SubResource("StandardMaterial3D_6hecq")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe4" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(-0.707107, 0, 0.707107, 0.491934, 0.718333, 0.491934, -0.507938, 0.6957, -0.507938, -0.639302, -1.84489, -10.766)
+material_override = SubResource("StandardMaterial3D_bf6fr")
+mesh = ExtResource("51_q6wfo")
+skeleton = NodePath("../../..")
+
+[node name="Pillar3" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.84847, 5.74711, -18.5897)
+mesh = ExtResource("9_3e4gf")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_wqdug")
+surface_material_override/1 = SubResource("StandardMaterial3D_5y6ci")
+
+[node name="Pipe5" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.767913, 5.4634, -18.3121)
+material_override = SubResource("StandardMaterial3D_6hecq")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe6" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, -0.767913, 6.00511, -18.8714)
+material_override = SubResource("StandardMaterial3D_6hecq")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe7" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(-5.96046e-08, -1, 0, 0.718333, -4.2816e-08, -0.6957, 0.6957, -4.14669e-08, 0.718333, 2.14229, 4.74926, -13.5728)
+material_override = SubResource("StandardMaterial3D_hf8qh")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe8" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(-5.96046e-08, -1, 0, 0.718333, -4.2816e-08, -0.6957, 0.6957, -4.14669e-08, 0.718333, 5.14229, 4.74926, -13.5728)
+material_override = SubResource("StandardMaterial3D_hf8qh")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Pipe9" type="MeshInstance3D" parent="Models/Wall 3D decore"]
+transform = Transform3D(-5.96046e-08, -1, 0, 0.718333, -4.2816e-08, -0.6957, 0.6957, -4.14669e-08, 0.718333, 8.14229, 4.74926, -13.5728)
+material_override = SubResource("StandardMaterial3D_hf8qh")
+mesh = ExtResource("32_q6nxx")
+skeleton = NodePath("../../..")
+
+[node name="Lights" type="Node3D" parent="Models"]
+
+[node name="Lamp2" type="MeshInstance3D" parent="Models/Lights"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0.6957, 0.718333, 3.041e-08, -0.718333, 0.6957, -3.13993e-08, -0.834864, 1.34972, -10.0652)
+mesh = ExtResource("52_iteql")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_a811g")
+surface_material_override/1 = SubResource("StandardMaterial3D_njrcf")
+surface_material_override/2 = SubResource("StandardMaterial3D_jjpap")
+surface_material_override/3 = SubResource("StandardMaterial3D_0ieam")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Models/Lights/Lamp2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.118136)
+light_color = Color(0.890102, 0.606933, 3.85046e-07, 1)
+light_energy = 2.0
+light_size = 0.4
+light_specular = 0.0
+shadow_enabled = true
+shadow_bias = 0.908
+shadow_blur = 2.0
+
+[node name="CeilingLamp1" type="MeshInstance3D" parent="Models/Lights"]
+transform = Transform3D(1, 0, 0, 0, 0.718333, -0.6957, 0, 0.6957, 0.718333, 4.07413, 4.27888, -12.7992)
+mesh = ExtResource("11_0m32p")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_2psy1")
+surface_material_override/1 = SubResource("StandardMaterial3D_b3v68")
+surface_material_override/2 = SubResource("StandardMaterial3D_10h5c")
+surface_material_override/3 = SubResource("StandardMaterial3D_hy6jp")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Models/Lights/CeilingLamp1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.147611, -0.202083, -0.0310887)
+light_color = Color(0.890102, 0.606933, 3.85046e-07, 1)
+light_energy = 2.0
+light_size = 0.4
+light_specular = 0.0
+shadow_enabled = true
+shadow_bias = 0.908
+shadow_blur = 2.0
+
+[node name="Lamp3" type="MeshInstance3D" parent="Models/Lights"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0.6957, 0.718333, 3.041e-08, -0.718333, 0.6957, -3.13993e-08, -0.834864, 6.62058, -16.0973)
+mesh = ExtResource("52_iteql")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_a811g")
+surface_material_override/1 = SubResource("StandardMaterial3D_njrcf")
+surface_material_override/2 = SubResource("StandardMaterial3D_jjpap")
+surface_material_override/3 = SubResource("StandardMaterial3D_0ieam")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Models/Lights/Lamp3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.118136)
+light_color = Color(0.905263, 5.23181e-05, 2.98411e-05, 1)
+light_energy = 2.0
+light_size = 0.4
+light_specular = 0.0
+shadow_enabled = true
+shadow_bias = 0.908
+shadow_blur = 2.0
+
+[node name="Lamp4" type="MeshInstance3D" parent="Models/Lights"]
+transform = Transform3D(0, -1, -4.37114e-08, 0.6957, -1.48935e-08, 0.718333, -0.718333, -1.44243e-08, 0.6957, 3.53402, 2.81435, -14.2092)
+mesh = ExtResource("52_iteql")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_a811g")
+surface_material_override/1 = SubResource("StandardMaterial3D_njrcf")
+surface_material_override/2 = SubResource("StandardMaterial3D_jjpap")
+surface_material_override/3 = SubResource("StandardMaterial3D_0ieam")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Models/Lights/Lamp4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.118136)
+light_color = Color(0.905263, 5.23181e-05, 2.98411e-05, 1)
+light_energy = 2.0
+light_size = 0.4
+light_specular = 0.0
+shadow_enabled = true
+shadow_bias = 0.908
+shadow_blur = 2.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0.866025, 0, -0.866025, 0.5, 0.219344, 6.03652, 6.69401)
+light_color = Color(0.612291, 0.489182, 0.122921, 1)
+light_energy = 0.0

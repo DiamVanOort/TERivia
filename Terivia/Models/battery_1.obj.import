@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dn0qpmjc7ash6"
+path="res://.godot/imported/battery_1.obj-a6d58b52ee0d070399ca450abb4f92b5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/battery_1.obj-a6d58b52ee0d070399ca450abb4f92b5.mesh"]
+
+source_file="res://Models/battery_1.obj"
+dest_files=["res://.godot/imported/battery_1.obj-a6d58b52ee0d070399ca450abb4f92b5.mesh", "res://.godot/imported/battery_1.obj-a6d58b52ee0d070399ca450abb4f92b5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

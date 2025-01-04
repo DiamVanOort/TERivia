@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnxwllymck8f5"
+path="res://.godot/imported/hand_saw_1.obj-daf8e2379758f501ac279872e71e1c61.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hand_saw_1.obj-daf8e2379758f501ac279872e71e1c61.mesh"]
+
+source_file="res://Models/hand_saw_1.obj"
+dest_files=["res://.godot/imported/hand_saw_1.obj-daf8e2379758f501ac279872e71e1c61.mesh", "res://.godot/imported/hand_saw_1.obj-daf8e2379758f501ac279872e71e1c61.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
